@@ -4,7 +4,6 @@ BoJ 2606    Silver 3    Graph
 '''
 from collections import deque
 
-
 def BFS():
     global count
     queue = deque()
@@ -17,7 +16,6 @@ def BFS():
             if not visited[i]:
                 visited[i] = True
                 queue.append(i)
-
 
 C = int(input())
 N = int(input())
