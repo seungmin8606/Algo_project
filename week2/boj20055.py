@@ -21,7 +21,7 @@ while durability.count(0) < K:
                 robot[i+1] = 1
                 durability[i+1] -= 1
 
-    if robot[N-1] != 0:
+    if robot[N-1] != 0:     # 내리는 위치 
         robot[N-1] = 0
 
     if durability[0] > 0:   # 3. 올리기
